@@ -44,6 +44,8 @@ void free_buffers(char **buf);
  * struct builtin - Struct Biltin
  * @env: The operator
  * @exit: The function associated
+ *
+ * Description: creates struct Builtin
  */
 struct builtin
 {
@@ -55,6 +57,8 @@ struct builtin
  * struct info - Struct info
  * @final_exit: The operator
  * @ln_count: The function associated
+ *
+ * Description: creates struct info
  */
 struct info
 {
@@ -64,7 +68,9 @@ struct info
 
 /**
  * struct flags - Struct flags
- * @bool: boolean
+ * @interactive: boolean
+ *
+ * Description: creates struct flags
  */
 struct flags
 {
