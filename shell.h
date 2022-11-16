@@ -40,19 +40,32 @@ char *find_path(void);
 
 /* helper function for efficient free */
 void free_buffers(char **buf);
-
+/**
+ * struct builtin - Struct Biltin
+ * @env: The operator
+ * @exit: The function associated
+ */
 struct builtin
 {
 	char *env;
 	char *exit;
 } builtin;
 
+/**
+ * struct info - Struct info
+ * @final_exit: The operator
+ * @ln_count: The function associated
+ */
 struct info
 {
 	int final_exit;
 	int ln_count;
 } info;
 
+/**
+ * struct flags - Struct flags
+ * @bool: boolean
+ */
 struct flags
 {
 	bool interactive;
